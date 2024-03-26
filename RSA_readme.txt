@@ -2,6 +2,7 @@ This is a reminder of what the RSA scripts do. It took a while to read through a
 
 
 Step 5 make ROI mats
+	- this takes forever so better to run on the cluster
 	- this makes the neural RDMs. How?
 	- Loop through each subject
 	- Get the single-trial betas

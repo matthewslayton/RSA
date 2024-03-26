@@ -25,7 +25,8 @@ objectLibrary = readtable('/Users/matthewslayton/Library/CloudStorage/Box-Box/El
 objIDCol = objectLibrary.ID;
 objNameCol = objectLibrary.Object1DisplayName;
 
-subjects = {'5025','5026'};
+%subjects = {'5025','5026'};
+subjects = {'5028'};
 
 for subj = 1:length(subjects)
 

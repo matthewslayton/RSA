@@ -4,7 +4,7 @@
 clear all
 addpath('/Users/matthewslayton/Documents/Duke/Simon_Lab/spm12')
 
-subjects = {'5016'};
+subjects = {'5028'};
 %subjects = {'5004','5005','5010','5015','5016','5017','5019','5020','5021','5022'};
 % 5007, 5011, 5012, 5014 already run and are on desktop
 % 5001 and 5006 are still running
@@ -95,6 +95,7 @@ for subj = 1:length(subjects)
             end
         end
         toc
+        fprintf('\n Finished ROI %d \n', X);
     end
 
 end %subj loop
